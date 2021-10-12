@@ -1,0 +1,165 @@
+nav{ 
+    padding: 6px;
+    background-color: #333;
+    text-align: center;
+    justify-content: center;
+}
+ul{
+    width:80%;
+}
+  nav li {
+display: inline-block;
+margin-right: 15px;
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:link {
+    text-decoration: none;
+  }
+  
+nav a:visited {
+    text-decoration: none;
+  }
+ nav a:active {
+    text-decoration: none;
+  }
+
+  .logo{
+      float: left;
+      margin-left: 16px;
+  }
+  nav a:hover{
+      text-decoration:underline;
+  }
+
+  .banner{
+       background-image: url(../images/banner.jpg);
+       background-repeat: no-repeat;
+       min-height: 400px;
+       display: grid;
+       color:white;
+       align-content: center;
+       text-align: center;
+  }
+  .banner_p1{
+      font-size: 40px;
+  }
+  .banner_p2{
+      font-size:25px;
+  }
+  .banner_p3{
+      font-size: 20px;
+  }
+  .banner_p4{
+      font-size: 1vw;;
+  }
+
+  div{
+      align-content: center;
+      text-align: center;
+
+  }
+
+  div span {
+        color: yellow;
+        background-color: #23262d;
+        border-radius: 100px;
+        border: yellow solid 10px;
+        padding: 10px 15px;
+        display: inline-block;
+        font-size: 35px;
+        margin-bottom: 25px;
+  }
+
+  div p{
+      font-size: 10px;
+
+  }
+
+  .title{
+      text-align: center;
+      font-size: 25px;
+  }
+
+  .grid-container {
+    margin-top: 8px;
+   vertical-align: middle;
+    display: grid;
+    grid-gap: 15px 30px;
+    padding: 10px;
+    
+  
+
+  }
+.grid-item{
+    background: black;
+    text-align: center;
+}
+  .grid-item img{
+      width: 100%;
+      max-width: 300px;
+       
+  }  
+
+  .item1{
+    grid-column: 1/span 2;
+    grid-row: 1;
+  
+
+  }
+  
+  .item2 {
+
+    grid-column: 1;
+    grid-row: 2;
+ 
+  }
+  .item3{
+    grid-column: 2;
+    grid-row: 2;
+  
+  }
+  .item4{
+grid-column: 1 / spam 2;
+grid-row: 3;
+
+  }
+
+  .item5 {
+    grid-column: 3 ;
+    grid-row: 1 / span 2;
+  
+  }
+  .item6{
+      grid-column: 3;
+      grid-row: 3;
+      
+  }
+
+  @media all and (min-width : 400px)and (max-width: 900px){
+      .grid-item{
+          width: 100px;
+      }
+    .logo {
+        display: inline-block;
+        font-size: 14px;
+    }
+  }
+
+  .info { 
+    background-color: #333;
+    height: 200px;
+    color: yellow;
+    
+  }
+  .contact_msg{ 
+      position:relative;
+      bottom: -100px;
+  }
+  .num{
+    position:relative;
+    bottom: -100px;
+  }
